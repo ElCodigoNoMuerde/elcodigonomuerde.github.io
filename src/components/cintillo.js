@@ -16,6 +16,7 @@ export default function Cintillo() {
 		</ul>
 		</div>
 	</nav>
+	<div class="card-panel teal lighten-2">This is a card panel with a teal lighten-2 class</div>
 	<AdSense.Google
 		client='ca-pub-8354409704567755'
 		slot='1742165778'
@@ -23,8 +24,7 @@ export default function Cintillo() {
 		format='auto'
 		responsive='true'
 		layoutKey='-gw-1+2a-9x+5c'
-	/>
-	<div class="card-panel teal lighten-2">This is a card panel with a teal lighten-2 class</div>
+	/>	
 	</material>	
   )
 }
