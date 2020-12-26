@@ -4,11 +4,13 @@
             <title>Bienvenido - El Código No Muerde!</title>
             <meta http-equiv=”Content-Type” content=”text/html; charset=UTF-8/>
             <script src="js/jquery.js"></script>
-            <script> 
-                $(function(){
-                    $("#cintillo").load("comp/cintillo.html");
-                    $("#piedepagina").load("comp/piedepagina.html");
-                });
+            <script>
+                (function($){
+                    $(function(){
+                        $("#cintillo").load("comp/cintillo.html");
+                        $("#piedepagina").load("comp/piedepagina.html");
+                    }); // end of document ready
+                })(jQuery);
             </script>
             <script data-ad-client="ca-pub-8354409704567755" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
         </head>
