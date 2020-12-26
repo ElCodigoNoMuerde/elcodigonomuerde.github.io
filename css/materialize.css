@@ -4270,11 +4270,11 @@ table span.badge {
 }
 
 nav {
-  color: #fff;
+  color: #bbb;
   background-color: #ee6e73;
   width: 100%;
-  height: 56px;
-  line-height: 56px;
+  height: 40px;
+  line-height: 40px;
 }
 
 nav.nav-extended {
@@ -4282,8 +4282,8 @@ nav.nav-extended {
 }
 
 nav.nav-extended .nav-wrapper {
-  min-height: 56px;
-  height: auto;
+  min-height: 40px;
+  height: auto;    
 }
 
 nav.nav-extended .nav-content {
@@ -4292,7 +4292,8 @@ nav.nav-extended .nav-content {
 }
 
 nav a {
-  color: #fff;
+  color: #bbb;
+    font-weight: bold;
 }
 
 nav i,
@@ -4300,8 +4301,8 @@ nav [class^="mdi-"], nav [class*="mdi-"],
 nav i.material-icons {
   display: block;
   font-size: 24px;
-  height: 56px;
-  line-height: 56px;
+  height: 40px;
+  line-height: 40px;
 }
 
 nav .nav-wrapper {
@@ -4319,21 +4320,22 @@ nav .sidenav-trigger {
   float: left;
   position: relative;
   z-index: 1;
-  height: 56px;
+  height: 40px;
   margin: 0 18px;
 }
 
 nav .sidenav-trigger i {
-  height: 56px;
-  line-height: 56px;
+  height: 40px;
+  line-height: 40px;
 }
 
 nav .brand-logo {
   position: absolute;
-  color: #fff;
+  color: #bbb;
   display: inline-block;
-  font-size: 2.1rem;
+  font-size: 1.1rem;
   padding: 0;
+    margin-left: 40px;
 }
 
 nav .brand-logo.center {
@@ -4399,16 +4401,16 @@ nav ul a {
   -webkit-transition: background-color .3s;
   transition: background-color .3s;
   font-size: 1rem;
-  color: #fff;
+  color: #bbb;
   display: block;
-  padding: 0 15px;
+  padding: 0 10px;
   cursor: pointer;
 }
 
 nav ul a.btn, nav ul a.btn-large, nav ul a.btn-small, nav ul a.btn-large, nav ul a.btn-flat, nav ul a.btn-floating {
   margin-top: -2px;
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 nav ul a.btn > .material-icons, nav ul a.btn-large > .material-icons, nav ul a.btn-small > .material-icons, nav ul a.btn-large > .material-icons, nav ul a.btn-flat > .material-icons, nav ul a.btn-floating > .material-icons {
@@ -4463,7 +4465,7 @@ nav .input-field label.active i {
 
 .navbar-fixed {
   position: relative;
-  height: 56px;
+  height: 40px;
   z-index: 997;
 }
 
@@ -4473,14 +4475,14 @@ nav .input-field label.active i {
 
 @media only screen and (min-width: 601px) {
   nav.nav-extended .nav-wrapper {
-    min-height: 64px;
+    min-height: 40px;
   }
   nav, nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i {
-    height: 64px;
-    line-height: 64px;
+    height: 40px;
+    line-height: 40px;
   }
   .navbar-fixed {
-    height: 64px;
+    height: 40px;
   }
 }
 
@@ -8486,10 +8488,19 @@ input[type=range]::-ms-thumb {
   visibility: visible;
   -webkit-animation: pulse-animation 1s cubic-bezier(0.24, 0, 0.38, 1) infinite;
           animation: pulse-animation 1s cubic-bezier(0.24, 0, 0.38, 1) infinite;
-  -webkit-transition: opacity .3s, visibility 0s 1s, -webkit-transform .3s;
-  transition: opacity .3s, visibility 0s 1s, -webkit-transform .3s;
-  transition: opacity .3s, transform .3s, visibility 0s 1s;
-  transition: opacity .3s, transform .3s, visibility 0s 1s, -webkit-transform .3s;
+  -webkit-transition: opacity .3s,
+ visibility 0s 1s,
+ -webkit-transform .3s;
+  transition: opacity .3s,
+ visibility 0s 1s,
+ -webkit-transform .3s;
+  transition: opacity .3s,
+ transform .3s,
+ visibility 0s 1s;
+  transition: opacity .3s,
+ transform .3s,
+ visibility 0s 1s,
+ -webkit-transform .3s;
 }
 
 .tap-target {
@@ -8542,10 +8553,19 @@ input[type=range]::-ms-thumb {
 
 .tap-target-wave::after {
   visibility: hidden;
-  -webkit-transition: opacity .3s, visibility 0s, -webkit-transform .3s;
-  transition: opacity .3s, visibility 0s, -webkit-transform .3s;
-  transition: opacity .3s, transform .3s, visibility 0s;
-  transition: opacity .3s, transform .3s, visibility 0s, -webkit-transform .3s;
+  -webkit-transition: opacity .3s,
+ visibility 0s,
+ -webkit-transform .3s;
+  transition: opacity .3s,
+ visibility 0s,
+ -webkit-transform .3s;
+  transition: opacity .3s,
+ transform .3s,
+ visibility 0s;
+  transition: opacity .3s,
+ transform .3s,
+ visibility 0s,
+ -webkit-transform .3s;
   z-index: -1;
 }
 
